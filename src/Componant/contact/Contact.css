@@ -1,0 +1,120 @@
+.questions .tittle h4,
+.make-order .tittle h4 {
+    font-size: 34px !important;
+    font-weight: bold !important;
+    color: #222 !important;
+
+}
+
+.questions .tittle .tittle-icon, 
+.make-order .tittle .tittle-icon {
+    position: relative !important;
+}
+
+.questions .tittle .tittle-icon svg,
+.make-order .tittle .tittle-icon svg {
+    color: #e97d1f !important;
+}
+
+.questions .tittle .tittle-icon .before::before,
+.make-order .tittle .tittle-icon .before::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 20px !important;
+    left: 40px !important;
+    width: 60px !important;
+    height: 2px !important;
+    background: #e97d1f !important;
+}
+/* make order */
+.make-order .ul .list-text h6,
+.make-order .ull .list-text h6 {
+    font-size: 22px !important;
+    line-height: 32px !important;
+    color: #222 !important;
+    font-weight: bold !important;
+}
+.make-order .ul .list-text p,
+.make-order .ull .list-text p {
+    font-size: 14px !important;
+    color: #777 !important;
+}
+/* icon order */
+.make-order .ul .lest-icon,
+.make-order .ull .lest-icon {
+    position: relative !important;
+    top: 20px;
+}
+.make-order .ul .lest-icon::before {
+    content: "";
+    position: absolute !important;
+    border-left: 1px dashed #e97d1f !important;
+    height: 125px !important;
+    left: 27px;
+    top: 0;
+}
+.make-order .ul .lest-icon .icon,
+.make-order .ull .lest-icon .icon {
+    width: 53px;
+    height: 25px;
+    background: #e97d1f !important;
+    text-align: center;
+}
+.make-order .ul .lest-icon .icon button,
+.make-order .ull .lest-icon .icon button {
+    padding: 0 !important;
+}
+.make-order .ul .lest-icon .icon svg,
+.make-order .ull .lest-icon .icon svg {
+    color: white !important;
+}
+.make-order .ul .lest-icon .icon button::before,
+.make-order .ull .lest-icon .icon button::before {
+    content: "" !important;
+    position: absolute !important;
+    top: -1em !important;
+    left: -15px !important;
+    border-left: 1.5em solid transparent !important;
+    border-right: 1.5em solid transparent !important;
+    border-bottom: 1em solid !important;
+    border-bottom-color: inherit !important;
+    font-size: 18px !important;
+    color: #e97d1f !important;
+}
+.make-order .ul .lest-icon .icon button::after,
+.make-order .ull .lest-icon .icon button::after {
+    content: "";
+    position: absolute;
+    bottom: -1em;
+    left: -15px;
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    border-top: 1em solid;
+    border-top-color: inherit !important;
+    font-size: 18px !important;
+    color: #e97d1f !important;
+}
+/* Questions */
+.questions .con-us .boxIcon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #e97d1f;
+    text-align: center;
+    line-height: 43px;
+}
+.questions .con-us .boxIcon svg {
+    color: #e97d1f !important;
+}
+.questions .con-us .listText h6 {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    font-weight: bold !important;
+    color: #e97d1f !important;
+    font-family: "Roboto Slab", serif !important;
+    margin-bottom: 6px !important;
+}
+.questions .con-us .listText p {
+    color: #222 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}

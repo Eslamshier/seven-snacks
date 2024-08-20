@@ -1,0 +1,110 @@
+.b-home {
+    background: url("../../../public/assets/slid-02.jpg") center no-repeat fixed !important;
+    min-height: 70vh !important;
+    background-size: cover !important;
+    z-index: 1 !important;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1f1f1f;
+    opacity: 0.7;
+    z-index: 2;
+    min-height: 70vh !important;
+}
+.home {
+    position: absolute !important;
+    top: 20% !important;
+    width: 100% !important;
+    z-index: 3 !important;
+}
+.home .top-titt {
+    text-transform: uppercase !important;
+    color: #e97d1f !important;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 22%;
+}
+.home .tittal {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+}
+.home .disc-tittal {
+    padding: 30px 0;
+    font-family: "Open Sans" !important;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.home .button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.home .button .b-right {
+    background-color: #e97d1f;
+    width: 180px;
+    height: 50px;
+    margin-right: 25px;
+    text-transform: uppercase !important;
+}
+
+.home .button .b-left {
+    width: 180px;
+    height: 50px;
+    color: #e97d1f;
+    border: 1px solid #e97d1f;
+    transition: 0.3 ease;
+    text-transform: uppercase !important;
+}
+/* hover */
+.home .button .b-right:hover {
+    background-color: #fff;
+    color: #e97d1f;
+    transition: 0.3 ease !important;
+}
+.home .button .b-left:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.3 ease !important;
+}
+/* slider */
+.carousel {
+    width: 50%;
+}
+.slick-slider {
+    width: 500px;
+    top: -12%;
+}
+.sliderImg {
+    display: flex !important;
+    justify-content: center !important;
+}
+.slick-slide .slideimage {
+    object-fit: cover;
+    border-radius: 2px;
+    min-width: 150px !important;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* slider arrow */
+.slick-next {
+    right: -30px !important;
+}
+.slick-next:before {
+    font-size: 30px !important;
+}
+.slick-prev {
+    left: -30px !important;
+}
+.slick-prev:before {
+    font-size: 30px !important;
+}

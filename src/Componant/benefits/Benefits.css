@@ -1,0 +1,133 @@
+.b-benefits {
+    background-image: url("../../../public/assets/slid-02.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    height: 100vh !important;
+    /* min-height: 100vh !important; */
+}
+.p-benefits .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1f1f1f;
+    opacity: 0.7;
+    z-index: 2 !important;
+    min-height: 100% !important;
+}
+.p-benefits .benefits {
+    position: absolute !important;
+    top: 0 !important;
+    width: 100% !important;
+    min-height: 100% !important;
+    z-index: 3 !important;
+}
+.p-benefits .benefits .head-tittle .sup-tittle {
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin-bottom: 5px !important;
+    font-size: 34px !important;
+}
+/* icon  */
+.p-benefits .benefits .head-tittle .titt-icon {
+    position: relative !important;
+}
+.p-benefits .benefits .head-tittle .titt-icon svg {
+    color: #e97d1f;
+}
+.p-benefits .benefits .head-tittle .titt-icon span::before{
+    content: "" !important;
+    position: absolute !important;
+    top: 20px !important;
+    left: 495px !important;
+    width: 60px !important;
+    height: 2px !important;
+    background: #e97d1f !important;
+}
+.p-benefits .benefits .head-tittle .titt-icon span::after{
+    content: "" !important;
+    position: absolute !important;
+    top: 20px !important;
+    right: 495px !important;
+    width: 60px !important;
+    height: 2px !important;
+    background: #e97d1f !important;
+}
+/* body grid benefits */
+.p-benefits .benefits .body-benefits .box-benefits {
+    border: 2px solid #e97d1f;
+    padding: 30px;
+}
+.p-benefits .benefits .body-benefits .box-benefits .icon-bene {
+    margin: 0 auto ;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #e97d1f;
+    border-radius: 50%;
+}
+.p-benefits .benefits .body-benefits .box-benefits .icon-bene svg {
+    transform: translate(0, 10px);
+    color: #e97d1f;
+    font-size: 28px;
+}
+.p-benefits .benefits .body-benefits .box-benefits .tittle-bene {
+    margin: 25px 0 !important;
+    color: #ffffff !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+.p-benefits .benefits .body-benefits .box-benefits .prag-bene {
+    color: #ffffff !important;
+    font-size: 16px !important;
+    margin-bottom: 35px !important;
+    line-height: 1.7 !important;
+}
+.p-benefits .benefits .body-benefits .box-benefits .span-bene::before{
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 37% !important;
+    width: 70px !important;
+    height: 2px !important;
+    background: #e97d1f !important;
+}
+/* body grid benefits */
+.p-benefits .benefits .body-benefits .box-benefits2 {
+    background: #ffffff;
+    padding: 30px;
+}
+.p-benefits .benefits .body-benefits .box-benefits2 .icon-bene2 {
+    margin: 0 auto ;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #e97d1f;
+}
+.p-benefits .benefits .body-benefits .box-benefits2 .icon-bene2 svg {
+    transform: translate(0, 10px);
+    color: #e97d1f;
+    font-size: 28px;
+}
+.p-benefits .benefits .body-benefits .box-benefits2 .tittle-bene2 {
+    margin: 25px 0 !important;
+    color: #1f1f1f !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+.p-benefits .benefits .body-benefits .box-benefits2 .prag-bene2 {
+    color: #1f1f1f !important;
+    font-size: 16px !important;
+    margin-bottom: 35px !important;
+    line-height: 1.7 !important;
+}
+.p-benefits .benefits .body-benefits .box-benefits2 .span-bene2::before{
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 37% !important;
+    width: 70px !important;
+    height: 2px !important;
+    background: #e97d1f !important;
+}

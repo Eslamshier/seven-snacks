@@ -1,0 +1,57 @@
+.tittle h4 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #222 !important;
+    
+}
+.coll-about .tittle .tittle-icon {
+    position: relative;
+}
+.coll-about .tittle .tittle-icon svg {
+    color: #e97d1f;
+}
+.coll-about .tittle .tittle-icon .before::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 20px !important;
+    left: 40px !important;
+    width: 60px !important;
+    height: 2px !important;
+    background: #e97d1f !important;
+}
+/* tabs mui */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+    border-bottom: none !important;
+    padding: 0 16px 0 0 !important;
+    color: #222 !important;
+    transition: 0.3s !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #e97d1f !important;
+    transition: 0.3s !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: transparent !important;
+}
+/* tabs text */
+.css-19kzrtu {
+    padding: 24px 0 !important;
+}
+.css-ahj2mt-MuiTypography-root{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 16px !important;
+    color: #777 !important;
+    
+}
+/* button  */
+.butt-left,
+.butt-right {
+    background-color: #e97d1f !important;
+    border-radius: 0 !important;
+}
+.butt-left:hover,
+.butt-right:hover {
+    opacity: 0.91 !important;
+}

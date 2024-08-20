@@ -1,0 +1,67 @@
+.nav{
+    background: #FFFFFF;
+    position: fixed;
+    position: relative;
+    
+}
+.h-nav {
+    display: flex;
+}
+.h-nav .img {
+    padding: 20px  0;
+    flex-grow: 1;
+}
+.h-nav .links li {
+    padding: 20px 20px 20px 0;
+    color: #222 !important;
+}
+.h-nav .links li a  {
+    position: relative !important;
+}
+.h-nav .links li a.active,
+.h-nav .links li a.active svg{
+    color: #e97d1f !important;
+}
+.nav .h-nav .links li a::before {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, .1);
+    opacity: 0;
+    transition: opacity .3s, transform .3s;
+    transform: translateY(10px);
+}
+.h-nav .links li a:hover::before {
+    bottom: -6px;
+    height: 2px;
+    background-color: #e97d1f;
+    opacity: 1;
+    transition: 0.3s ease;
+    transform: translateY(5px);
+}
+.nav .h-nav .links li a.active::before{
+    bottom: -6px;
+    height: 2px;
+    background-color: #e97d1f;
+    opacity: 1;
+    transition: 0.3s ease;
+    transform: translateY(5px);
+}
+.h-nav .links li  a svg,
+.h-nav .links li a
+{
+    color: #222 !important;
+    font-size: 16px !important;
+    
+}
+.h-nav .links li:hover  a svg,
+.h-nav .links li:hover a {
+    color: #e97d1f !important;
+    transition: 0.3s;
+}
+.h-nav .links li  a svg {
+    margin-right: 6px;
+}
